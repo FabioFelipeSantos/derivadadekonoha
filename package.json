@@ -1,12 +1,17 @@
 {
-  "name": "00-derivada-de-konoha",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+	"name": "00-derivada-de-konoha",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"tw": "npx tailwindcss -i ./src/main.css -o ./src/main_output.css --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"daisyui": "^4.12.10",
+		"tailwindcss": "^3.4.11"
+	}
 }
